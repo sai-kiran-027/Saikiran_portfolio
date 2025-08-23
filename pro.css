@@ -202,4 +202,31 @@
     }
     body.dark .btn:hover {
       background: #777;
+
     }
+
+ @media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+      nav a {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+}
